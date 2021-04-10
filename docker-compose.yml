@@ -1,7 +1,14 @@
 version: '3'
 
-# 가정 1. 현재 폴더가 /Users/thruthesky/docker/centerx/ 라고 가정한다.
-#   이 아래에 docker 폴더는 docker 전용 파일 및 docker 가 생산하는 기타 설정 파일 및 mariadb 데이터 파일 등이 저장된다.
+# 가정 1. 현재 폴더가 /Users/thruthesky/www/docker/ 라고 가정한다.
+#   /Users/thruthesky/www/docker/ 폴더에는 docker 와 관련된 파일이 저장되고,
+#   /Users/thruthesky/www/docker/etc 폴더에는 각종 서비스 설정 파일이 저장된다. 예) nginx.conf, php.ini
+#   /Users/thruthesky/www/docker/mysqldata 폴더에는 mysql 또는 mariadb 데이터베이스의 데이터 파일이 저장되고,
+#   /Users/thruthesky/www/docker/logs 폴더에는 각종 로그 파일이 저장된다.
+#   /Users/thruthesky/www/docker/home 폴더는 개별 도메인의 홈 폴더로서, nginx 에 의해서 연결된다. 이 폴더는 기본적으로 .gitignore 에 등록되어져
+#   있다. 즉, home 폴더 아래에서 다른 git repo 를 clone 해도 된다.
+
+
 
 services:
   nginx:
