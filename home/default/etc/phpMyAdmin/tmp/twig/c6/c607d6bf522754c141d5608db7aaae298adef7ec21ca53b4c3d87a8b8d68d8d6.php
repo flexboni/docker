@@ -80,6 +80,6 @@ class __TwigTemplate_9f8831b1db25b08efe9d3a10247c0b021dc6a6b5232fd891943b37ad7ac
 
     public function getSourceContext()
     {
-        return new Source("", "sql/sql_query_results.twig", "/root/etc/phpMyAdmin/templates/sql/sql_query_results.twig");
+        return new Source("", "sql/sql_query_results.twig", "/docker/home/default/etc/phpMyAdmin/templates/sql/sql_query_results.twig");
     }
 }

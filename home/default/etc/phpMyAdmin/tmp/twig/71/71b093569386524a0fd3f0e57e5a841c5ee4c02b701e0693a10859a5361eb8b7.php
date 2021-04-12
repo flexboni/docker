@@ -69,6 +69,6 @@ class __TwigTemplate_fa8f5e07e480a1d4b4a81738e7b8636bcc2d5cc87add54ad888e4d4fd22
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/page_selector.twig", "/root/etc/phpMyAdmin/templates/display/results/page_selector.twig");
+        return new Source("", "display/results/page_selector.twig", "/docker/home/default/etc/phpMyAdmin/templates/display/results/page_selector.twig");
     }
 }

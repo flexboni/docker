@@ -74,6 +74,6 @@ class __TwigTemplate_52771dd9679df776cc7332ac705b1744b0be6371713e61b1899989d1c75
 
     public function getSourceContext()
     {
-        return new Source("", "config/form_display/tabs_top.twig", "/root/etc/phpMyAdmin/templates/config/form_display/tabs_top.twig");
+        return new Source("", "config/form_display/tabs_top.twig", "/docker/home/default/etc/phpMyAdmin/templates/config/form_display/tabs_top.twig");
     }
 }

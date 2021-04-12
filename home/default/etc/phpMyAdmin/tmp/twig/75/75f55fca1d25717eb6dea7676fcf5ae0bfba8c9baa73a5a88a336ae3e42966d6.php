@@ -168,6 +168,6 @@ class __TwigTemplate_aa48f8f7e0848e06c09668f220a5c8933df1791be96c23dcf76bbcafe12
 
     public function getSourceContext()
     {
-        return new Source("", "menu/breadcrumbs.twig", "/root/etc/phpMyAdmin/templates/menu/breadcrumbs.twig");
+        return new Source("", "menu/breadcrumbs.twig", "/docker/home/default/etc/phpMyAdmin/templates/menu/breadcrumbs.twig");
     }
 }

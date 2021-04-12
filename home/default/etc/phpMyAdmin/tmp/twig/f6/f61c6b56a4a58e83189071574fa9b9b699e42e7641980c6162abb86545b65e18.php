@@ -701,6 +701,6 @@ class __TwigTemplate_c64d883d93d9c5d87b60a171b77ec4bf0262093c5baeb27e6ef453cb25e
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/table.twig", "/root/etc/phpMyAdmin/templates/display/results/table.twig");
+        return new Source("", "display/results/table.twig", "/docker/home/default/etc/phpMyAdmin/templates/display/results/table.twig");
     }
 }

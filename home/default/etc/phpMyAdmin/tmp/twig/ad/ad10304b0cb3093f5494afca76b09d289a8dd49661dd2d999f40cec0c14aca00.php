@@ -87,6 +87,6 @@ class __TwigTemplate_915a185067619d15c131dcb4996cef632ebf42e39b138755a848ccc1986
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/sort_by_key.twig", "/root/etc/phpMyAdmin/templates/display/results/sort_by_key.twig");
+        return new Source("", "display/results/sort_by_key.twig", "/docker/home/default/etc/phpMyAdmin/templates/display/results/sort_by_key.twig");
     }
 }

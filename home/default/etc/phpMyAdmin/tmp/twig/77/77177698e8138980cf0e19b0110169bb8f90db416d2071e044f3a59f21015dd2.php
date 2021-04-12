@@ -78,6 +78,6 @@ class __TwigTemplate_5422cf075d06e3737e04690f06ce25c6323be1873d89e11c3ae2c6191e6
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/comment_for_row.twig", "/root/etc/phpMyAdmin/templates/display/results/comment_for_row.twig");
+        return new Source("", "display/results/comment_for_row.twig", "/docker/home/default/etc/phpMyAdmin/templates/display/results/comment_for_row.twig");
     }
 }

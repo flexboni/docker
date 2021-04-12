@@ -59,6 +59,6 @@ class __TwigTemplate_9a3a55c951022d377cfd62b5625036677c1b258ed8117f15112b46d10c3
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/empty_display.twig", "/root/etc/phpMyAdmin/templates/display/results/empty_display.twig");
+        return new Source("", "display/results/empty_display.twig", "/docker/home/default/etc/phpMyAdmin/templates/display/results/empty_display.twig");
     }
 }

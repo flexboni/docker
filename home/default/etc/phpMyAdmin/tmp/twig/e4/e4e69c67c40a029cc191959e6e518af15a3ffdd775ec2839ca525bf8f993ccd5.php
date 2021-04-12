@@ -75,6 +75,6 @@ class __TwigTemplate_cb9bb44a03ee89eae22a4d425bd5a1357603b137c080bf0bbd18a985dfa
 
     public function getSourceContext()
     {
-        return new Source("", "filter.twig", "/root/etc/phpMyAdmin/templates/filter.twig");
+        return new Source("", "filter.twig", "/docker/home/default/etc/phpMyAdmin/templates/filter.twig");
     }
 }

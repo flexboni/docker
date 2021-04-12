@@ -69,6 +69,6 @@ class __TwigTemplate_ac7a062b244ed81e322eeaf29f88a65f9ed321b1af3efc6f35287024676
 
     public function getSourceContext()
     {
-        return new Source("", "javascript/display.twig", "/root/etc/phpMyAdmin/templates/javascript/display.twig");
+        return new Source("", "javascript/display.twig", "/docker/home/default/etc/phpMyAdmin/templates/javascript/display.twig");
     }
 }

@@ -258,6 +258,6 @@ array_key_exists("cfg_bookmark", $context)) ? ([0 => "action bookmark", 1 => _ge
 
     public function getSourceContext()
     {
-        return new Source("", "console/display.twig", "/root/etc/phpMyAdmin/templates/console/display.twig");
+        return new Source("", "console/display.twig", "/docker/home/default/etc/phpMyAdmin/templates/console/display.twig");
     }
 }

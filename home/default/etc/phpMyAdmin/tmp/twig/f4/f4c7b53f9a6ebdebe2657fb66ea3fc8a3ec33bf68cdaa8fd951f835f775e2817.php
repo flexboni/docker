@@ -104,6 +104,6 @@ class __TwigTemplate_1fb2232c49657ca5912eb9489c8f41d37ecdda75864365fe7b9bcf1ad37
 
     public function getSourceContext()
     {
-        return new Source("", "footer.twig", "/root/etc/phpMyAdmin/templates/footer.twig");
+        return new Source("", "footer.twig", "/docker/home/default/etc/phpMyAdmin/templates/footer.twig");
     }
 }

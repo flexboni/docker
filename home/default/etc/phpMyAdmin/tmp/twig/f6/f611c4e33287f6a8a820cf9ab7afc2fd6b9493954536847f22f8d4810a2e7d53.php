@@ -88,6 +88,6 @@ class __TwigTemplate_8a20b21b4d197f989817c4a6aa0df81bac7503812fab0041a2b6d8f8d45
 
     public function getSourceContext()
     {
-        return new Source("", "console/toolbar.twig", "/root/etc/phpMyAdmin/templates/console/toolbar.twig");
+        return new Source("", "console/toolbar.twig", "/docker/home/default/etc/phpMyAdmin/templates/console/toolbar.twig");
     }
 }

@@ -62,6 +62,6 @@ class __TwigTemplate_e7656b70283e6019c79654663131c2c20ba072e5d7ccf162a52e718a781
 
     public function getSourceContext()
     {
-        return new Source("", "message.twig", "/root/etc/phpMyAdmin/templates/message.twig");
+        return new Source("", "message.twig", "/docker/home/default/etc/phpMyAdmin/templates/message.twig");
     }
 }

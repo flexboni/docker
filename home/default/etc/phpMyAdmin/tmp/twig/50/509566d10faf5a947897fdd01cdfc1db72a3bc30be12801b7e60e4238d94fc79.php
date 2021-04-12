@@ -289,6 +289,6 @@ class __TwigTemplate_84089f1b875c57070ba0414243508305f465b582b6a57fb5ae4bcb844d2
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/body_for_table_summary.twig", "/root/etc/phpMyAdmin/templates/database/structure/body_for_table_summary.twig");
+        return new Source("", "database/structure/body_for_table_summary.twig", "/docker/home/default/etc/phpMyAdmin/templates/database/structure/body_for_table_summary.twig");
     }
 }

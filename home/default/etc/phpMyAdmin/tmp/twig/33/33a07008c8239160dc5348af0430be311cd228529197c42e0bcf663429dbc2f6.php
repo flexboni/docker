@@ -190,6 +190,6 @@ class __TwigTemplate_432a0dec2f0de4f53f1ff2d6e71f1d59f97dfd26e1afc79c83f9b0f5758
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/check_all_tables.twig", "/root/etc/phpMyAdmin/templates/database/structure/check_all_tables.twig");
+        return new Source("", "database/structure/check_all_tables.twig", "/docker/home/default/etc/phpMyAdmin/templates/database/structure/check_all_tables.twig");
     }
 }

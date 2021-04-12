@@ -75,6 +75,6 @@ class __TwigTemplate_5698af4c1ecfeb1ee81dc3f8587378f04767818967c4fc072f1a9c27848
 
     public function getSourceContext()
     {
-        return new Source("", "config/form_display/form_top.twig", "/root/etc/phpMyAdmin/templates/config/form_display/form_top.twig");
+        return new Source("", "config/form_display/form_top.twig", "/docker/home/default/etc/phpMyAdmin/templates/config/form_display/form_top.twig");
     }
 }

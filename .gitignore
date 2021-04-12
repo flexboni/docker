@@ -4,3 +4,4 @@ home
 logs
 mysqldata
 
+home/default/etc/phpMyAdmin/tmp/twig/

@@ -61,6 +61,6 @@ class __TwigTemplate_1516a95f803f67693d0c38eed0578d129ddc53bb8dc2262b5cd10cfd179
 
     public function getSourceContext()
     {
-        return new Source("", "login/footer.twig", "/root/etc/phpMyAdmin/templates/login/footer.twig");
+        return new Source("", "login/footer.twig", "/docker/home/default/etc/phpMyAdmin/templates/login/footer.twig");
     }
 }

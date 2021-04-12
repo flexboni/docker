@@ -128,6 +128,6 @@ class __TwigTemplate_535f455ed8e96d539f8d7527d6b6c9954c92479b934de8365880c80fbf5
 
     public function getSourceContext()
     {
-        return new Source("", "select_lang.twig", "/root/etc/phpMyAdmin/templates/select_lang.twig");
+        return new Source("", "select_lang.twig", "/docker/home/default/etc/phpMyAdmin/templates/select_lang.twig");
     }
 }

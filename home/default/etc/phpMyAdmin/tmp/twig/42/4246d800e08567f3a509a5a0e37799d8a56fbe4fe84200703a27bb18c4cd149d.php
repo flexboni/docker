@@ -54,9 +54,9 @@ class __TwigTemplate_86a3249f8c471e41a8b1270cfefa0d7025bf49bc5d1e8b05f4c5968061a
             echo _gettext("You are using the demo server. You can do anything here, but please do not change root, debian-sys-maint and pma users. More information is available at %s.");
             // line 10
             echo "    ";
-            $___internal_daee3769d93500f198ed357afd89e714d9a0b3e36c084600698f1ea921daeb2d_ = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
+            $___internal_1ab089fd28ca2df89af43b1829667172ba9578853d1cf9c396251d597eb4b7f6_ = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
             // line 6
-            echo sprintf($___internal_daee3769d93500f198ed357afd89e714d9a0b3e36c084600698f1ea921daeb2d_, "<a href=\"url.php?url=https://demo.phpmyadmin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">demo.phpmyadmin.net</a>");
+            echo sprintf($___internal_1ab089fd28ca2df89af43b1829667172ba9578853d1cf9c396251d597eb4b7f6_, "<a href=\"url.php?url=https://demo.phpmyadmin.net/\" target=\"_blank\" rel=\"noopener noreferrer\">demo.phpmyadmin.net</a>");
             // line 11
             echo "  </fieldset>
 ";
@@ -297,6 +297,6 @@ class __TwigTemplate_86a3249f8c471e41a8b1270cfefa0d7025bf49bc5d1e8b05f4c5968061a
 
     public function getSourceContext()
     {
-        return new Source("", "login/form.twig", "/root/etc/phpMyAdmin/templates/login/form.twig");
+        return new Source("", "login/form.twig", "/docker/home/default/etc/phpMyAdmin/templates/login/form.twig");
     }
 }

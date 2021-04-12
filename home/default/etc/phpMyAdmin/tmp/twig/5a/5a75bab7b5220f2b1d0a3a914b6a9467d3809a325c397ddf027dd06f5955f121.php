@@ -92,6 +92,6 @@ class __TwigTemplate_979c4e09454189a6315f96a646f4f4645593cedb4f70ea97b4871f54cf9
 
     public function getSourceContext()
     {
-        return new Source("", "login/header.twig", "/root/etc/phpMyAdmin/templates/login/header.twig");
+        return new Source("", "login/header.twig", "/docker/home/default/etc/phpMyAdmin/templates/login/header.twig");
     }
 }

@@ -561,6 +561,6 @@ class __TwigTemplate_df8e9920a886ab339fdfb645a58d4a1aa3389d3c5ebfaa79f4c90d3109a
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/structure_table_row.twig", "/root/etc/phpMyAdmin/templates/database/structure/structure_table_row.twig");
+        return new Source("", "database/structure/structure_table_row.twig", "/docker/home/default/etc/phpMyAdmin/templates/database/structure/structure_table_row.twig");
     }
 }

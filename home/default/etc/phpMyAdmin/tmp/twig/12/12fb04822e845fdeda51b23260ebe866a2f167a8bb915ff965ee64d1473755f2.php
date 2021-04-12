@@ -449,6 +449,6 @@ class __TwigTemplate_1787c55254bf089dbdb4ba719a97b1911c98139c68fa65f55d037a86b1f
 
     public function getSourceContext()
     {
-        return new Source("", "sql/query.twig", "/root/etc/phpMyAdmin/templates/sql/query.twig");
+        return new Source("", "sql/query.twig", "/docker/home/default/etc/phpMyAdmin/templates/sql/query.twig");
     }
 }

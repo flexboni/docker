@@ -108,6 +108,6 @@ class __TwigTemplate_6192a0444168095ccf6d5317260513ac1a1fee7d85d457742dc1f40336d
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/index.twig", "/root/etc/phpMyAdmin/templates/database/structure/index.twig");
+        return new Source("", "database/structure/index.twig", "/docker/home/default/etc/phpMyAdmin/templates/database/structure/index.twig");
     }
 }

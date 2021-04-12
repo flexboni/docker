@@ -97,6 +97,6 @@ class __TwigTemplate_4c66552635013b222054489424884a34e93dbb0bf285183c84458b56cd0
 
     public function getSourceContext()
     {
-        return new Source("", "database/create_table.twig", "/root/etc/phpMyAdmin/templates/database/create_table.twig");
+        return new Source("", "database/create_table.twig", "/docker/home/default/etc/phpMyAdmin/templates/database/create_table.twig");
     }
 }

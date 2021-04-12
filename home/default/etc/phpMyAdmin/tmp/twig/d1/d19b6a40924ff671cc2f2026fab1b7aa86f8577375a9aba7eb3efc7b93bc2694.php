@@ -75,6 +75,6 @@ class __TwigTemplate_9dd3e226e62996103bb29addabe9d20be505eb37d45a446323fa37d28d2
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/favorite_anchor.twig", "/root/etc/phpMyAdmin/templates/database/structure/favorite_anchor.twig");
+        return new Source("", "database/structure/favorite_anchor.twig", "/docker/home/default/etc/phpMyAdmin/templates/database/structure/favorite_anchor.twig");
     }
 }
