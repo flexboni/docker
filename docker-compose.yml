@@ -1,36 +1,14 @@
 version: '3'
 
-# 가정 1. 현재 폴더가 /Users/thruthesky/www/docker/ 라고 가정한다.
-#   이 것은 `git clone https://github.com/thruthesky/docker /Users/thruthesky/www/docker` 와 같이 한 것과 같다.
-#
-#   /Users/thruthesky/www/docker/ 폴더에는 docker 와 관련된 파일이 저장되고,
-#   /Users/thruthesky/www/docker/etc 폴더에는 각종 서비스 설정 파일이 저장된다. 예) nginx.conf, php.ini
-#   /Users/thruthesky/www/docker/mysqldata 폴더에는 mysql 또는 mariadb 데이터베이스의 데이터 파일이 저장되고,
-#   /Users/thruthesky/www/docker/logs 폴더에는 각종 로그 파일이 저장된다.
-#   /Users/thruthesky/www/docker/home 폴더는 개별 도메인의 홈 폴더로서, nginx 에 의해서 연결된다. 이 폴더는 기본적으로 .gitignore 에 등록되어져
-#   있다. 즉, home 폴더 아래에서 다른 git repo 를 clone 해도 된다.
-#
-#   /Users/thruthesky/www 폴더는 임시로 가정하는 폴더이다.
-#   다른 Host(예: 우분투 서버)에 설치를 할 때에는 /Users/thruthesky/www 대신, /docker 나 /home/user/docker 와 같이 어느 폴더라도 상관이 없이,
-#   Host OS 의 현재 폴더가 Guest OS 의 루트 폴더가 된다.
-
-
 
 services:
   nginx:
     image: nginx:1.19.7-alpine
     container_name: www_docker_nginx
     volumes:
-      # 현재 컴퓨터(Host OS)의 현재 폴더(/Users/thruthesky/www/docker)를 Guest OS 의 /docker 경로로 재지정(연결, 또는 링크)한다.
-      # 이렇게 함으로서, Guest OS 의 /docker  폴더는 /Users/thruthesky/www/docker 폴더가 된다.
       - .:/docker
-      # Host OS 의 /Users/thruthesky/www/docker/etc/nginx.conf 를 Guest OS 의 /etc/nginx/nginx.conf 로 링크한다.
-      - ./etc/nginx.conf:/etc/nginx/nginx.conf
-
-      # Host OS 의 /Users/thruthesky/www/docker/logs/nginx 폴더를 Guest OS 의 /etc/nginx/logs 로 링크.
-      # 로그 폴더 mount. 기본적으로 /etc/nginx/logs 폴더에 로그가 기록되는데, 이 폴더를 HOST OS 로 지정해서, 로그가 HOST OS 에 쌓이도록 한다.
-      # Nginx 설정에서 logs/access.log 라고 지정하면 /Users/thruthesky/docker/emp/docker/logs/access.log 가 된다.
-      - ./logs/nginx:/etc/nginx/logs # HOST OS 에 로그를 기록해서, 로그를 쉽게 볼 수 있도록 한다.
+      - ./etc/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./etc/nginx/logs:/etc/nginx/logs
 
     # 포트 지정. Host OS 의 포트를 Guest OS 로 연결
     ports:

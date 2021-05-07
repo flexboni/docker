@@ -1,7 +1,11 @@
 .DS_Store
 .idea
 home
-logs
+etc/nginx/logs
+access.log
+error.log
 mysqldata
+var/lib/mysql
+
 
 home/default/etc/phpMyAdmin/tmp/twig/
