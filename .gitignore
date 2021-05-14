@@ -9,3 +9,4 @@ var/lib/mysql
 
 
 home/default/etc/phpMyAdmin/tmp/twig/
+.well-known/pki-validation
