@@ -1,7 +1,6 @@
 # PHP 8.0.3 (최신버전) + FPM + Alpine 리눅스 조합
 #
 # 구성: PDO, MySQLi, GD, Exif
-# 참고: gmp 설치를 위해서는 gmp-dev 가 필요하다.
 #
 FROM php:8.0.3-fpm-alpine
 
