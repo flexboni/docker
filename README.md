@@ -7,3 +7,7 @@
 - 실행 후 `https://127.0.0.1/etc/phpMyAdmin/index.php` 와 같이 phpMyAdmin 에 접속 할 수 있으며 적절한 도메인으로 변경하면 된다.
 - 기본적으로 `centerx` 데이터베이스가 생성된다.
 
+
+
+## MariaDB 백업
+
