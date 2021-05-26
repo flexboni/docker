@@ -45,7 +45,7 @@ services:
       # 즉, Docker container 또는 image 가 삭제되어도, 자료는 HOST OS 에 저장된다.
       # 참고로, 이 경로는 처음 docker-compose up 으로 설치 하기 전에 지정해야한다.
       # 만약, 나중에 지정을 하면, docker system prune -a(또는 docker image 삭제)를 하고, 다시 설치해야 한다.
-      - ./var/lib/mysql:/var/lib/mysql
+      - ./mysqldata:/var/lib/mysql
 
     # DB 포트 연결
     ports:
