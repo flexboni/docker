@@ -6,6 +6,8 @@ access.log
 error.log
 mysqldata
 var/lib/mysql
+backup
 
 
 home/default/etc/phpMyAdmin/tmp/twig/
+.well-known/pki-validation
